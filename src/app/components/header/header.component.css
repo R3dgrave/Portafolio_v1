@@ -1,0 +1,11 @@
+.links {
+  @apply relative tracking-[3px] hover:text-cyan-300;
+}
+
+.links::after {
+  @apply content-[''] bg-cyan-300 h-[3px] w-[0%] left-0 -bottom-[2px] rounded-xl absolute duration-300;
+}
+
+.links:hover::after {
+  @apply w-[100%];
+}
