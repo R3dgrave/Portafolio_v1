@@ -74,10 +74,10 @@ export class ProjectsComponent {
       description:
         'Es un proyecto E-commerce, desarrollado con Angular 18, NodeJs y MongoDB, Tailwind CSS y Flowbite. No es perfecto, pero desarrollarlo me sirvió para tener una perspectiva más clara de todo lo que es crear una aplicación Full-Stack de 0 hasta desplegarlo y aprender lo básico de angular y como crear el servidor del back-end, para desplegarlo use Vercel(Front-end) Render(Back-end) MongoDB Atlas(Bdd).',
       github: [
-        'https://github.com/R3dgrave/tienda-frontend',
-        'https://github.com/R3dgrave/tienda-backend'
+        'https://github.com/R3dgrave/E-Commerce-frontend',
+        'https://github.com/R3dgrave/E-Commerce-Backend'
       ],
-      live: 'https://tienda-frontend-g9owtz2np-r3dgraves-projects.vercel.app/',
+      live: 'https://e-commerce-frontend-teal-one.vercel.app/',
     },
   ];
 
