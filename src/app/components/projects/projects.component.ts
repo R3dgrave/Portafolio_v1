@@ -69,13 +69,13 @@ export class ProjectsComponent {
         '../../../assets/svg/angular.svg',
         '../../../assets/svg/tailwind.svg',
         '../../../assets/svg/express.svg',
-        '../../../assets/svg/mongodb.svg'
+        '../../../assets/svg/mongodb.svg',
       ],
       description:
-        'Es un proyecto E-commerce, desarrollado con Angular 18, NodeJs y MongoDB, Tailwind CSS y Flowbite. No es perfecto, pero desarrollarlo me sirvió para tener una perspectiva más clara de todo lo que es crear una aplicación Full-Stack de 0 hasta desplegarlo y aprender lo básico de angular y como crear el servidor del back-end, para desplegarlo use Vercel(Front-end) Render(Back-end) MongoDB Atlas(Bdd).',
+        'Desarrollado con Angular 18, Node.js(Express.JS), MongoDB, Páginas(principal, productos, carrito de compras, lista de deseos, estado mi pedido, perfil). Panel de administrador CRUD(categorías, marcas, productos, pedidos). Adaptado a todos los dispositivos.',
       github: [
         'https://github.com/R3dgrave/E-Commerce-frontend',
-        'https://github.com/R3dgrave/E-Commerce-Backend'
+        'https://github.com/R3dgrave/E-Commerce-Backend',
       ],
       live: 'https://e-commerce-frontend-teal-one.vercel.app/',
     },
@@ -92,10 +92,4 @@ export class ProjectsComponent {
     this.selectedImage = null;
   }
 
-  filterByTechnology(iconPath: string) {
-    const isTodo = iconPath === '../../../assets/svg/home.svg';
-    this.filteredImages = isTodo
-      ? [...this.images]
-      : this.images.filter((image) => image.tecnologies.includes(iconPath));
-  }
 }

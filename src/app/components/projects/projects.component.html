@@ -11,16 +11,6 @@
             </svg>
             <h1 class="font-bold text-cyan-300 text-4xl uppercase">Proyectos</h1>
         </div>
-        <div class="w-full mx-auto bg-backgroundColor3 rounded-xl lg:rounded-full disabled:">
-            <ol class="flex flex-row flex-wrap justify-center md:justify-evenly gap-4 md:gap-6 px-4 py-2">
-                <li *ngFor="let icon of svg"
-                    class="links cursor-pointer rounded-lg p-2 transition transform hover:scale-150 duration-300">
-                    <a type="button" class="flex justify-between items-center px-8 text-white text-xs">
-                        <img loading="lazy" class="w-4 md:w-8 lg:w-12" [src]="icon.icon" alt="svg icon"
-                            (click)="filterByTechnology(icon.icon)" /></a>
-                </li>
-            </ol>
-        </div>
     </section>
     <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8">
         <div *ngFor="let image of filteredImages; let i = index" class="flex justify-center">

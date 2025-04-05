@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 export class ContactComponent {
   public svg = [
     {
-      text: 'Descargar CV',
+      text: 'Ver CV',
       icon1: '../../../assets/svg/word.svg',
     },
     {
